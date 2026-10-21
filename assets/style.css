@@ -165,7 +165,7 @@
 
   /* ---------- services ---------- */
   .sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;margin-bottom:56px;flex-wrap:wrap}
-  .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
   .svc{
     border:1px solid var(--line);border-radius:var(--radius);padding:34px 30px 30px;
     background:#fff;transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease;
@@ -433,3 +433,5 @@ footer .logo .logo-img{height:46px}
 .logo .logo-img{height:42px;width:auto;display:block}
 footer .logo .logo-img{height:46px}
 @media(max-width:640px){.logo .logo-img{height:34px}footer .logo .logo-img{height:38px}}
+
+.next-svc.single{grid-template-columns:1fr}
